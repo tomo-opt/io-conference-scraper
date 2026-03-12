@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "io-conference-scraper"
+version = "0.1.0"
+description = "Daily conference/event scraper for UN system and major IGOs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "beautifulsoup4",
+  "lxml",
+  "pandas",
+  "python-dateutil",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
