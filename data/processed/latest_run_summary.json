@@ -1,0 +1,691 @@
+{
+  "total_sources": 97,
+  "successful_sources": 0,
+  "partial_sources": 0,
+  "failed_sources": 97,
+  "total_raw_records": 0,
+  "total_deduped_records": 0,
+  "run_started_at_utc": "2026-03-12T06:44:32Z",
+  "run_finished_at_utc": "2026-03-12T06:44:32Z",
+  "per_source_stats": [
+    {
+      "organization": "United Nations – Events and News",
+      "source_page": "https://www.un.org/en/events-and-news",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "United Nations – Calendar of Conferences and Meetings",
+      "source_page": "https://www.un.org/calendar/en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "United Nations – Conferences Portal",
+      "source_page": "https://www.un.org/en/conferences",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Meetings Coverage (Press)",
+      "source_page": "https://press.un.org/en/content/meetings-coverage",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Web TV Meetings & Events",
+      "source_page": "https://webtv.un.org/en/search/categories/meetings-events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN ECOSOC Events",
+      "source_page": "https://www.un.org/ecosoc/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN High-Level Political Forum",
+      "source_page": "https://hlpf.un.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN General Assembly Meetings",
+      "source_page": "https://www.un.org/en/ga/meetings",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Security Council Meetings",
+      "source_page": "https://www.un.org/securitycouncil/content/meetings",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN DESA Events",
+      "source_page": "https://www.un.org/development/desa/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNDRR Events",
+      "source_page": "https://www.undrr.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNOOSA Events",
+      "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Office for Partnerships Events",
+      "source_page": "https://www.un.org/partnerships/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "OCHA Events",
+      "source_page": "https://www.unocha.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNDP Events",
+      "source_page": "https://www.undp.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNICEF Events",
+      "source_page": "https://www.unicef.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNFPA Events",
+      "source_page": "https://www.unfpa.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Women Events",
+      "source_page": "https://www.unwomen.org/en/news-and-events/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN-Habitat Events",
+      "source_page": "https://unhabitat.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNEP Events",
+      "source_page": "https://www.unep.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "World Food Programme Events",
+      "source_page": "https://www.wfp.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Volunteers Events",
+      "source_page": "https://www.unv.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNCDF Events",
+      "source_page": "https://www.uncdf.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNECE Meetings and Events",
+      "source_page": "https://unece.org/info/events/unece-meetings-and-events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNESCAP Events",
+      "source_page": "https://www.unescap.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNECA Events",
+      "source_page": "https://www.uneca.org/eca-events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ECLAC Events",
+      "source_page": "https://www.cepal.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ESCWA Events",
+      "source_page": "https://www.unescwa.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "FAO Events",
+      "source_page": "https://www.fao.org/events/en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "FAO Members Gateway Calendar",
+      "source_page": "https://www.fao.org/members-gateway/calendar/en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ICAO Meetings and Events",
+      "source_page": "https://www.icao.int/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IFAD Events",
+      "source_page": "https://www.ifad.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ILO Meetings and Events",
+      "source_page": "https://www.ilo.org/ilo-meetings-and-events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IMF Events",
+      "source_page": "https://www.imf.org/en/news/seminars",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IMO Events",
+      "source_page": "https://www.imo.org/en/MediaCentre/Events/Pages/Default.aspx",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ITU Events Calendar",
+      "source_page": "https://www.itu.int/en/events/pages/calendar-events.aspx",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNESCO Events",
+      "source_page": "https://www.unesco.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNIDO Events",
+      "source_page": "https://www.unido.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Tourism Events",
+      "source_page": "https://www.unwto.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "Universal Postal Union Events",
+      "source_page": "https://www.upu.int/en/Events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WHO Events",
+      "source_page": "https://www.who.int/news-room/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WIPO Meetings and Events",
+      "source_page": "https://www.wipo.int/meetings/en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WMO Events",
+      "source_page": "https://wmo.int/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "World Bank Events",
+      "source_page": "https://www.worldbank.org/en/events/events-landing/all",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "World Bank Annual Meetings",
+      "source_page": "https://www.worldbank.org/en/meetings/splash/annual",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "World Bank Spring Meetings",
+      "source_page": "https://www.worldbank.org/en/meetings/splash/spring",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IFC Events",
+      "source_page": "https://www.ifc.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IDA Events",
+      "source_page": "https://ida.worldbank.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNCTAD Meetings",
+      "source_page": "https://unctad.org/meetings",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNHCR Events",
+      "source_page": "https://www.unhcr.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNOPS Events",
+      "source_page": "https://www.unops.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNRWA Events",
+      "source_page": "https://www.unrwa.org/newsroom/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ITC Events",
+      "source_page": "https://intracen.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNAIDS Events",
+      "source_page": "https://www.unaids.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNITAR Events",
+      "source_page": "https://unitar.org/about/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNU Events",
+      "source_page": "https://unu.edu/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNIDIR Events",
+      "source_page": "https://unidir.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNSSC Events",
+      "source_page": "https://www.unssc.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNRISD Events",
+      "source_page": "https://www.unrisd.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNICRI Events",
+      "source_page": "https://unicri.it/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WTO Events Calendar",
+      "source_page": "https://www.wto.org/english/news_e/events_e/events_calendar_view_e.htm",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WTO Ministerial Conferences",
+      "source_page": "https://www.wto.org/english/thewto_e/minist_e/minist_e.htm",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "OECD Events",
+      "source_page": "https://www.oecd.org/en/events.html",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IAEA Events",
+      "source_page": "https://www.iaea.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IOM Events",
+      "source_page": "https://www.iom.int/events-and-international-days",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "OPCW Events",
+      "source_page": "https://www.opcw.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "International Seabed Authority Events",
+      "source_page": "https://www.isa.org.jm/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "International Tribunal for the Law of the Sea Events",
+      "source_page": "https://www.itlos.org/en/main/events/",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "CTBTO Events",
+      "source_page": "https://www.ctbto.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ICC Events",
+      "source_page": "https://www.icc-cpi.int/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "Council of Europe Events",
+      "source_page": "https://www.coe.int/en/web/portal/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "OSCE Events",
+      "source_page": "https://www.osce.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "European Commission Events",
+      "source_page": "https://commission.europa.eu/news/events_en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "NATO Events",
+      "source_page": "https://www.nato.int/cps/en/natohq/events.htm",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "African Union Events",
+      "source_page": "https://au.int/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ASEAN Events",
+      "source_page": "https://asean.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "Organization of American States Events",
+      "source_page": "https://www.oas.org/en/events/",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "APEC Events",
+      "source_page": "https://www.apec.org/events-calendar",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "Commonwealth Events",
+      "source_page": "https://thecommonwealth.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNESCO General Conference",
+      "source_page": "https://www.unesco.org/en/general-conference",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WHO Governing Bodies",
+      "source_page": "https://www.who.int/about/governance",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ILO Official Meetings Programme",
+      "source_page": "https://www.ilo.org/resource/conference-paper/programme-ilo-official-meetings",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNFCCC Events List",
+      "source_page": "https://unfccc.int/calendar/events-list",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNFCCC Conferences and Meetings",
+      "source_page": "https://unfccc.int/process-and-meetings/conferences",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "WMO News, Events and Meetings",
+      "source_page": "https://wmo.int/news/events-and-meetings",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "OHCHR Events",
+      "source_page": "https://www.ohchr.org/en/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "Human Rights Council Sessions",
+      "source_page": "https://www.ohchr.org/en/hr-bodies/hrc/sessions",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UN Trade and Development – Events",
+      "source_page": "https://unctad.org/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "FAO Regional Conferences",
+      "source_page": "https://www.fao.org/about/meetings/regional-conferences/en",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ITU Events Search",
+      "source_page": "https://www.itu.int/hub/events/",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "ICAO Council and Meetings",
+      "source_page": "https://www.icao.int/about-icao/Council/Pages/default.aspx",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IMO Meetings",
+      "source_page": "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/Default.aspx",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "IFAD Executive Board and Governing Council",
+      "source_page": "https://www.ifad.org/en/governing-bodies",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNU Macau Events",
+      "source_page": "https://unu.edu/macau/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNU-MERIT Events",
+      "source_page": "https://unu.edu/merit/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNU-WIDER Events",
+      "source_page": "https://www.wider.unu.edu/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    },
+    {
+      "organization": "UNU-CPR Events",
+      "source_page": "https://unu.edu/cpr/events",
+      "status": "error",
+      "record_count": 0,
+      "error": "No module named 'bs4'"
+    }
+  ]
+}
