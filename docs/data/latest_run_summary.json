@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
-  "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 406,
-  "total_deduped_records": 406,
-  "run_started_at_utc": "2026-03-18T04:31:18Z",
-  "run_finished_at_utc": "2026-03-18T04:33:39Z",
+  "successful_sources": 43,
+  "partial_sources": 17,
+  "failed_sources": 37,
+  "total_raw_records": 332,
+  "total_deduped_records": 332,
+  "run_started_at_utc": "2026-03-19T04:30:12Z",
+  "run_finished_at_utc": "2026-03-19T04:32:11Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -46,16 +46,16 @@
     {
       "organization": "UN ECOSOC Events",
       "source_page": "https://www.un.org/ecosoc/en/events",
-      "status": "ok",
-      "record_count": 10,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
       "organization": "UN High-Level Political Forum",
       "source_page": "https://hlpf.un.org/events",
-      "status": "error",
+      "status": "partial",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://hlpf.un.org/events"
+      "error": ""
     },
     {
       "organization": "UN General Assembly Meetings",
@@ -81,16 +81,16 @@
     {
       "organization": "UNDRR Events",
       "source_page": "https://www.undrr.org/events",
-      "status": "ok",
-      "record_count": 2,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.undrr.org/events"
     },
     {
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
-      "status": "ok",
-      "record_count": 61,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='www.unoosa.org', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "UN Office for Partnerships Events",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 36,
+      "record_count": 35,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 26,
+      "record_count": 25,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe848aee2d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fc646525290>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
