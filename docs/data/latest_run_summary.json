@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 43,
+  "successful_sources": 45,
   "partial_sources": 17,
-  "failed_sources": 37,
-  "total_raw_records": 332,
-  "total_deduped_records": 332,
-  "run_started_at_utc": "2026-03-19T04:30:12Z",
-  "run_finished_at_utc": "2026-03-19T04:32:11Z",
+  "failed_sources": 35,
+  "total_raw_records": 427,
+  "total_deduped_records": 422,
+  "run_started_at_utc": "2026-03-20T04:21:54Z",
+  "run_finished_at_utc": "2026-03-20T04:23:50Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -88,9 +88,9 @@
     {
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unoosa.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 61,
+      "error": ""
     },
     {
       "organization": "UN Office for Partnerships Events",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 35,
+      "record_count": 33,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 6,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fc646525290>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fee0189d9d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -613,9 +613,9 @@
     {
       "organization": "Human Rights Council Sessions",
       "source_page": "https://www.ohchr.org/en/hr-bodies/hrc/sessions",
-      "status": "error",
-      "record_count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.ohchr.org/en/hr-bodies/hrc/sessions"
+      "status": "ok",
+      "record_count": 37,
+      "error": ""
     },
     {
       "organization": "UN Trade and Development – Events",
