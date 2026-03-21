@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
-  "partial_sources": 17,
-  "failed_sources": 35,
-  "total_raw_records": 427,
-  "total_deduped_records": 422,
-  "run_started_at_utc": "2026-03-20T04:21:54Z",
-  "run_finished_at_utc": "2026-03-20T04:23:50Z",
+  "successful_sources": 43,
+  "partial_sources": 18,
+  "failed_sources": 36,
+  "total_raw_records": 399,
+  "total_deduped_records": 394,
+  "run_started_at_utc": "2026-03-21T04:12:23Z",
+  "run_finished_at_utc": "2026-03-21T04:14:14Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 33,
+      "record_count": 32,
       "error": ""
     },
     {
@@ -263,8 +263,8 @@
     {
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
-      "status": "ok",
-      "record_count": 25,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "ok",
-      "record_count": 3,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='www.unops.org', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "UNRWA Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fee0189d9d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f2e1200ac90>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 6,
+      "record_count": 7,
       "error": ""
     },
     {
