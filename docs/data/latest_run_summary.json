@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 44,
   "partial_sources": 16,
-  "failed_sources": 35,
-  "total_raw_records": 431,
-  "total_deduped_records": 426,
-  "run_started_at_utc": "2026-03-22T04:27:39Z",
-  "run_finished_at_utc": "2026-03-22T04:29:21Z",
+  "failed_sources": 37,
+  "total_raw_records": 424,
+  "total_deduped_records": 419,
+  "run_started_at_utc": "2026-03-23T04:36:52Z",
+  "run_finished_at_utc": "2026-03-23T04:39:13Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 24,
+      "record_count": 25,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "ok",
-      "record_count": 3,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
     },
     {
       "organization": "UNRWA Events",
@@ -536,16 +536,16 @@
     {
       "organization": "ASEAN Events",
       "source_page": "https://asean.org/events",
-      "status": "ok",
-      "record_count": 5,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='asean.org', port=443): Max retries exceeded with url: /events (Caused by ConnectTimeoutError(<HTTPSConnection(host='asean.org', port=443) at 0x7f6d4d4da450>, 'Connection to asean.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "Organization of American States Events",
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f8684cd22d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f6d4dffebd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
