@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
-  "partial_sources": 17,
-  "failed_sources": 35,
-  "total_raw_records": 429,
-  "total_deduped_records": 424,
-  "run_started_at_utc": "2026-03-24T04:26:41Z",
-  "run_finished_at_utc": "2026-03-24T04:28:13Z",
+  "successful_sources": 44,
+  "partial_sources": 15,
+  "failed_sources": 38,
+  "total_raw_records": 421,
+  "total_deduped_records": 416,
+  "run_started_at_utc": "2026-03-25T04:28:00Z",
+  "run_finished_at_utc": "2026-03-25T04:30:05Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -46,16 +46,16 @@
     {
       "organization": "UN ECOSOC Events",
       "source_page": "https://www.un.org/ecosoc/en/events",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "502 Server Error: Bad Gateway for url: https://ecosoc.un.org/"
     },
     {
       "organization": "UN High-Level Political Forum",
       "source_page": "https://hlpf.un.org/events",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "404 Client Error: Not Found for url: https://hlpf.un.org/events"
     },
     {
       "organization": "UN General Assembly Meetings",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 32,
+      "record_count": 33,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 27,
+      "record_count": 24,
       "error": ""
     },
     {
@@ -285,7 +285,7 @@
       "organization": "Universal Postal Union Events",
       "source_page": "https://www.upu.int/en/Events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 6,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5ff4a3f350>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f87375ec0d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -676,9 +676,9 @@
     {
       "organization": "UNU-WIDER Events",
       "source_page": "https://www.wider.unu.edu/events",
-      "status": "ok",
-      "record_count": 6,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='www.wider.unu.edu', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "UNU-CPR Events",
