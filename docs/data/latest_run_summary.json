@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 44,
+  "successful_sources": 46,
   "partial_sources": 15,
-  "failed_sources": 38,
-  "total_raw_records": 421,
-  "total_deduped_records": 416,
-  "run_started_at_utc": "2026-03-25T04:28:00Z",
-  "run_finished_at_utc": "2026-03-25T04:30:05Z",
+  "failed_sources": 36,
+  "total_raw_records": 433,
+  "total_deduped_records": 428,
+  "run_started_at_utc": "2026-03-26T04:40:16Z",
+  "run_finished_at_utc": "2026-03-26T04:41:46Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -46,9 +46,9 @@
     {
       "organization": "UN ECOSOC Events",
       "source_page": "https://www.un.org/ecosoc/en/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://ecosoc.un.org/"
+      "status": "ok",
+      "record_count": 10,
+      "error": ""
     },
     {
       "organization": "UN High-Level Political Forum",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 33,
+      "record_count": 32,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 6,
+      "record_count": 5,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f87375ec0d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe5a38ef550>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -676,9 +676,9 @@
     {
       "organization": "UNU-WIDER Events",
       "source_page": "https://www.wider.unu.edu/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.wider.unu.edu', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 6,
+      "error": ""
     },
     {
       "organization": "UNU-CPR Events",
