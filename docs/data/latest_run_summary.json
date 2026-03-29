@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 43,
   "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 431,
-  "total_deduped_records": 426,
-  "run_started_at_utc": "2026-03-28T04:27:50Z",
-  "run_finished_at_utc": "2026-03-28T04:29:37Z",
+  "failed_sources": 39,
+  "total_raw_records": 392,
+  "total_deduped_records": 387,
+  "run_started_at_utc": "2026-03-29T04:43:51Z",
+  "run_finished_at_utc": "2026-03-29T04:46:04Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -263,9 +263,9 @@
     {
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
-      "status": "ok",
-      "record_count": 19,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "organization": "UNIDO Events",
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "ok",
-      "record_count": 3,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
     },
     {
       "organization": "UNRWA Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+      "error": "500 Server Error: Service unavailable (with message) for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5b24d537d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5cf523c8d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,15 +558,15 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 9,
+      "record_count": 8,
       "error": ""
     },
     {
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
-      "status": "ok",
-      "record_count": 18,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "organization": "WHO Governing Bodies",
@@ -594,7 +594,7 @@
       "source_page": "https://unfccc.int/process-and-meetings/conferences",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "organization": "WMO News, Events and Meetings",
