@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 47,
+  "successful_sources": 46,
   "partial_sources": 15,
-  "failed_sources": 35,
-  "total_raw_records": 470,
-  "total_deduped_records": 465,
-  "run_started_at_utc": "2026-03-31T04:43:09Z",
-  "run_finished_at_utc": "2026-03-31T04:45:10Z",
+  "failed_sources": 36,
+  "total_raw_records": 437,
+  "total_deduped_records": 432,
+  "run_started_at_utc": "2026-04-01T04:53:46Z",
+  "run_finished_at_utc": "2026-04-01T04:55:41Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -130,9 +130,9 @@
     {
       "organization": "UN Women Events",
       "source_page": "https://www.unwomen.org/en/news-and-events/events",
-      "status": "ok",
-      "record_count": 33,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.unwomen.org/en/news-and-events/events"
     },
     {
       "organization": "UN-Habitat Events",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 32,
+      "record_count": 34,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 25,
+      "record_count": 23,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f19b32873d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe624569110>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 8,
+      "record_count": 7,
       "error": ""
     },
     {
