@@ -3,10 +3,10 @@
   "successful_sources": 46,
   "partial_sources": 15,
   "failed_sources": 36,
-  "total_raw_records": 408,
-  "total_deduped_records": 403,
-  "run_started_at_utc": "2026-04-02T04:37:17Z",
-  "run_finished_at_utc": "2026-04-02T04:39:27Z",
+  "total_raw_records": 434,
+  "total_deduped_records": 429,
+  "run_started_at_utc": "2026-04-03T04:37:50Z",
+  "run_finished_at_utc": "2026-04-03T04:39:32Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -88,9 +88,9 @@
     {
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unoosa.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 61,
+      "error": ""
     },
     {
       "organization": "UN Office for Partnerships Events",
@@ -130,9 +130,9 @@
     {
       "organization": "UN Women Events",
       "source_page": "https://www.unwomen.org/en/news-and-events/events",
-      "status": "ok",
-      "record_count": 33,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.unwomen.org/en/news-and-events/events"
     },
     {
       "organization": "UN-Habitat Events",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 12,
+      "record_count": 11,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 35,
+      "record_count": 36,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 23,
+      "record_count": 22,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 5,
+      "record_count": 4,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f259e5892d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fc7d5ca41d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
