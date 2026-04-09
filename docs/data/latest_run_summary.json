@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
   "successful_sources": 46,
-  "partial_sources": 16,
-  "failed_sources": 35,
-  "total_raw_records": 439,
-  "total_deduped_records": 434,
-  "run_started_at_utc": "2026-04-08T04:44:29Z",
-  "run_finished_at_utc": "2026-04-08T04:46:11Z",
+  "partial_sources": 15,
+  "failed_sources": 36,
+  "total_raw_records": 440,
+  "total_deduped_records": 435,
+  "run_started_at_utc": "2026-04-09T04:41:13Z",
+  "run_finished_at_utc": "2026-04-09T04:43:08Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 13,
+      "record_count": 14,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 36,
+      "record_count": 37,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 25,
+      "record_count": 24,
       "error": ""
     },
     {
@@ -515,9 +515,9 @@
     {
       "organization": "European Commission Events",
       "source_page": "https://commission.europa.eu/news/events_en",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "404 Client Error: Not Found for url: https://commission.europa.eu/news/events_en"
     },
     {
       "organization": "NATO Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe83e08ca50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fd51a915390>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -594,7 +594,7 @@
       "source_page": "https://unfccc.int/process-and-meetings/conferences",
       "status": "error",
       "record_count": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
     },
     {
       "organization": "WMO News, Events and Meetings",
