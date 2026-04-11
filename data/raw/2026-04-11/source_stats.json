@@ -1,0 +1,681 @@
+[
+  {
+    "organization": "United Nations – Events and News",
+    "source_page": "https://www.un.org/en/events-and-news",
+    "status": "ok",
+    "record_count": 13,
+    "error": ""
+  },
+  {
+    "organization": "United Nations – Calendar of Conferences and Meetings",
+    "source_page": "https://www.un.org/calendar/en",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "United Nations – Conferences Portal",
+    "source_page": "https://www.un.org/en/conferences",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UN Meetings Coverage (Press)",
+    "source_page": "https://press.un.org/en/content/meetings-coverage",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UN Web TV Meetings & Events",
+    "source_page": "https://webtv.un.org/en/search/categories/meetings-events",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UN ECOSOC Events",
+    "source_page": "https://www.un.org/ecosoc/en/events",
+    "status": "ok",
+    "record_count": 10,
+    "error": ""
+  },
+  {
+    "organization": "UN High-Level Political Forum",
+    "source_page": "https://hlpf.un.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://hlpf.un.org/events"
+  },
+  {
+    "organization": "UN General Assembly Meetings",
+    "source_page": "https://www.un.org/en/ga/meetings",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UN Security Council Meetings",
+    "source_page": "https://www.un.org/securitycouncil/content/meetings",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UN DESA Events",
+    "source_page": "https://www.un.org/development/desa/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.un.org/development/desa/events"
+  },
+  {
+    "organization": "UNDRR Events",
+    "source_page": "https://www.undrr.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.undrr.org/events"
+  },
+  {
+    "organization": "UNOOSA Events",
+    "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
+    "status": "ok",
+    "record_count": 61,
+    "error": ""
+  },
+  {
+    "organization": "UN Office for Partnerships Events",
+    "source_page": "https://www.un.org/partnerships/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "OCHA Events",
+    "source_page": "https://www.unocha.org/events",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "UNDP Events",
+    "source_page": "https://www.undp.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.undp.org/events"
+  },
+  {
+    "organization": "UNICEF Events",
+    "source_page": "https://www.unicef.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unicef.org/events"
+  },
+  {
+    "organization": "UNFPA Events",
+    "source_page": "https://www.unfpa.org/events",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "UN Women Events",
+    "source_page": "https://www.unwomen.org/en/news-and-events/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unwomen.org/en/news-and-events/events"
+  },
+  {
+    "organization": "UN-Habitat Events",
+    "source_page": "https://unhabitat.org/events",
+    "status": "ok",
+    "record_count": 10,
+    "error": ""
+  },
+  {
+    "organization": "UNEP Events",
+    "source_page": "https://www.unep.org/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "World Food Programme Events",
+    "source_page": "https://www.wfp.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.wfp.org/events"
+  },
+  {
+    "organization": "UN Volunteers Events",
+    "source_page": "https://www.unv.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unv.org/events"
+  },
+  {
+    "organization": "UNCDF Events",
+    "source_page": "https://www.uncdf.org/events",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UNECE Meetings and Events",
+    "source_page": "https://unece.org/info/events/unece-meetings-and-events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://unece.org/info/events/unece-meetings-and-events"
+  },
+  {
+    "organization": "UNESCAP Events",
+    "source_page": "https://www.unescap.org/events",
+    "status": "ok",
+    "record_count": 14,
+    "error": ""
+  },
+  {
+    "organization": "UNECA Events",
+    "source_page": "https://www.uneca.org/eca-events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "ECLAC Events",
+    "source_page": "https://www.cepal.org/en/events",
+    "status": "ok",
+    "record_count": 41,
+    "error": ""
+  },
+  {
+    "organization": "ESCWA Events",
+    "source_page": "https://www.unescwa.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unescwa.org/events"
+  },
+  {
+    "organization": "FAO Events",
+    "source_page": "https://www.fao.org/events/en",
+    "status": "ok",
+    "record_count": 1,
+    "error": ""
+  },
+  {
+    "organization": "FAO Members Gateway Calendar",
+    "source_page": "https://www.fao.org/members-gateway/calendar/en",
+    "status": "ok",
+    "record_count": 5,
+    "error": ""
+  },
+  {
+    "organization": "ICAO Meetings and Events",
+    "source_page": "https://www.icao.int/events",
+    "status": "ok",
+    "record_count": 13,
+    "error": ""
+  },
+  {
+    "organization": "IFAD Events",
+    "source_page": "https://www.ifad.org/en/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.ifad.org/en/events"
+  },
+  {
+    "organization": "ILO Meetings and Events",
+    "source_page": "https://www.ilo.org/ilo-meetings-and-events",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "IMF Events",
+    "source_page": "https://www.imf.org/en/news/seminars",
+    "status": "ok",
+    "record_count": 11,
+    "error": ""
+  },
+  {
+    "organization": "IMO Events",
+    "source_page": "https://www.imo.org/en/MediaCentre/Events/Pages/Default.aspx",
+    "status": "ok",
+    "record_count": 9,
+    "error": ""
+  },
+  {
+    "organization": "ITU Events Calendar",
+    "source_page": "https://www.itu.int/en/events/pages/calendar-events.aspx",
+    "status": "ok",
+    "record_count": 8,
+    "error": ""
+  },
+  {
+    "organization": "UNESCO Events",
+    "source_page": "https://www.unesco.org/en/events",
+    "status": "ok",
+    "record_count": 23,
+    "error": ""
+  },
+  {
+    "organization": "UNIDO Events",
+    "source_page": "https://www.unido.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unido.org/events"
+  },
+  {
+    "organization": "UN Tourism Events",
+    "source_page": "https://www.unwto.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.untourism.int/events"
+  },
+  {
+    "organization": "Universal Postal Union Events",
+    "source_page": "https://www.upu.int/en/Events",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "WHO Events",
+    "source_page": "https://www.who.int/news-room/events",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "WIPO Meetings and Events",
+    "source_page": "https://www.wipo.int/meetings/en",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "WMO Events",
+    "source_page": "https://wmo.int/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://wmo.int/events"
+  },
+  {
+    "organization": "World Bank Events",
+    "source_page": "https://www.worldbank.org/en/events/events-landing/all",
+    "status": "ok",
+    "record_count": 1,
+    "error": ""
+  },
+  {
+    "organization": "World Bank Annual Meetings",
+    "source_page": "https://www.worldbank.org/en/meetings/splash/annual",
+    "status": "ok",
+    "record_count": 7,
+    "error": ""
+  },
+  {
+    "organization": "World Bank Spring Meetings",
+    "source_page": "https://www.worldbank.org/en/meetings/splash/spring",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "IFC Events",
+    "source_page": "https://www.ifc.org/en/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.ifc.org/en/events"
+  },
+  {
+    "organization": "IDA Events",
+    "source_page": "https://ida.worldbank.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://ida.worldbank.org/events"
+  },
+  {
+    "organization": "UNCTAD Meetings",
+    "source_page": "https://unctad.org/meetings",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UNHCR Events",
+    "source_page": "https://www.unhcr.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unhcr.org/events"
+  },
+  {
+    "organization": "UNOPS Events",
+    "source_page": "https://www.unops.org/events",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "UNRWA Events",
+    "source_page": "https://www.unrwa.org/newsroom/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.unrwa.org/newsroom/events"
+  },
+  {
+    "organization": "ITC Events",
+    "source_page": "https://intracen.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.intracen.org/events"
+  },
+  {
+    "organization": "UNAIDS Events",
+    "source_page": "https://www.unaids.org/en/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.unaids.org/en/events"
+  },
+  {
+    "organization": "UNITAR Events",
+    "source_page": "https://unitar.org/about/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://unitar.org/about/events"
+  },
+  {
+    "organization": "UNU Events",
+    "source_page": "https://unu.edu/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "UNIDIR Events",
+    "source_page": "https://unidir.org/events",
+    "status": "ok",
+    "record_count": 11,
+    "error": ""
+  },
+  {
+    "organization": "UNSSC Events",
+    "source_page": "https://www.unssc.org/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "UNRISD Events",
+    "source_page": "https://www.unrisd.org/events",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UNICRI Events",
+    "source_page": "https://unicri.it/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "HTTPSConnectionPool(host='unicri.it', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "organization": "WTO Events Calendar",
+    "source_page": "https://www.wto.org/english/news_e/events_e/events_calendar_view_e.htm",
+    "status": "ok",
+    "record_count": 1,
+    "error": ""
+  },
+  {
+    "organization": "WTO Ministerial Conferences",
+    "source_page": "https://www.wto.org/english/thewto_e/minist_e/minist_e.htm",
+    "status": "ok",
+    "record_count": 1,
+    "error": ""
+  },
+  {
+    "organization": "OECD Events",
+    "source_page": "https://www.oecd.org/en/events.html",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.oecd.org/en/events.html"
+  },
+  {
+    "organization": "IAEA Events",
+    "source_page": "https://www.iaea.org/events",
+    "status": "ok",
+    "record_count": 11,
+    "error": ""
+  },
+  {
+    "organization": "IOM Events",
+    "source_page": "https://www.iom.int/events-and-international-days",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "OPCW Events",
+    "source_page": "https://www.opcw.org/events",
+    "status": "ok",
+    "record_count": 20,
+    "error": ""
+  },
+  {
+    "organization": "International Seabed Authority Events",
+    "source_page": "https://www.isa.org.jm/events",
+    "status": "ok",
+    "record_count": 39,
+    "error": ""
+  },
+  {
+    "organization": "International Tribunal for the Law of the Sea Events",
+    "source_page": "https://www.itlos.org/en/main/events/",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.itlos.org/en/main/events/"
+  },
+  {
+    "organization": "CTBTO Events",
+    "source_page": "https://www.ctbto.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.ctbto.org/events"
+  },
+  {
+    "organization": "ICC Events",
+    "source_page": "https://www.icc-cpi.int/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.icc-cpi.int/events"
+  },
+  {
+    "organization": "Council of Europe Events",
+    "source_page": "https://www.coe.int/en/web/portal/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.coe.int/en/web/portal/events"
+  },
+  {
+    "organization": "OSCE Events",
+    "source_page": "https://www.osce.org/events",
+    "status": "ok",
+    "record_count": 5,
+    "error": ""
+  },
+  {
+    "organization": "European Commission Events",
+    "source_page": "https://commission.europa.eu/news/events_en",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://commission.europa.eu/news/events_en"
+  },
+  {
+    "organization": "NATO Events",
+    "source_page": "https://www.nato.int/cps/en/natohq/events.htm",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.nato.int/cps/en/natohq/events.htm"
+  },
+  {
+    "organization": "African Union Events",
+    "source_page": "https://au.int/en/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+  },
+  {
+    "organization": "ASEAN Events",
+    "source_page": "https://asean.org/events",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "Organization of American States Events",
+    "source_page": "https://www.oas.org/en/events/",
+    "status": "error",
+    "record_count": 0,
+    "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0cd3891c10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+  },
+  {
+    "organization": "APEC Events",
+    "source_page": "https://www.apec.org/events-calendar",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "Commonwealth Events",
+    "source_page": "https://thecommonwealth.org/events",
+    "status": "ok",
+    "record_count": 7,
+    "error": ""
+  },
+  {
+    "organization": "UNESCO General Conference",
+    "source_page": "https://www.unesco.org/en/general-conference",
+    "status": "ok",
+    "record_count": 18,
+    "error": ""
+  },
+  {
+    "organization": "WHO Governing Bodies",
+    "source_page": "https://www.who.int/about/governance",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "ILO Official Meetings Programme",
+    "source_page": "https://www.ilo.org/resource/conference-paper/programme-ilo-official-meetings",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "UNFCCC Events List",
+    "source_page": "https://unfccc.int/calendar/events-list",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "UNFCCC Conferences and Meetings",
+    "source_page": "https://unfccc.int/process-and-meetings/conferences",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
+  },
+  {
+    "organization": "WMO News, Events and Meetings",
+    "source_page": "https://wmo.int/news/events-and-meetings",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "OHCHR Events",
+    "source_page": "https://www.ohchr.org/en/events",
+    "status": "ok",
+    "record_count": 5,
+    "error": ""
+  },
+  {
+    "organization": "Human Rights Council Sessions",
+    "source_page": "https://www.ohchr.org/en/hr-bodies/hrc/sessions",
+    "status": "ok",
+    "record_count": 37,
+    "error": ""
+  },
+  {
+    "organization": "UN Trade and Development – Events",
+    "source_page": "https://unctad.org/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://unctad.org/events"
+  },
+  {
+    "organization": "FAO Regional Conferences",
+    "source_page": "https://www.fao.org/about/meetings/regional-conferences/en",
+    "status": "ok",
+    "record_count": 3,
+    "error": ""
+  },
+  {
+    "organization": "ITU Events Search",
+    "source_page": "https://www.itu.int/hub/events/",
+    "status": "ok",
+    "record_count": 1,
+    "error": ""
+  },
+  {
+    "organization": "ICAO Council and Meetings",
+    "source_page": "https://www.icao.int/about-icao/Council/Pages/default.aspx",
+    "status": "error",
+    "record_count": 0,
+    "error": "404 Client Error: Not Found for url: https://www.icao.int/about-icao/Council/Pages/default.aspx"
+  },
+  {
+    "organization": "IMO Meetings",
+    "source_page": "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/Default.aspx",
+    "status": "partial",
+    "record_count": 0,
+    "error": ""
+  },
+  {
+    "organization": "IFAD Executive Board and Governing Council",
+    "source_page": "https://www.ifad.org/en/governing-bodies",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.ifad.org/en/governing-bodies"
+  },
+  {
+    "organization": "UNU Macau Events",
+    "source_page": "https://unu.edu/macau/events",
+    "status": "error",
+    "record_count": 0,
+    "error": "403 Client Error: Forbidden for url: https://unu.edu/macau/events"
+  },
+  {
+    "organization": "UNU-MERIT Events",
+    "source_page": "https://unu.edu/merit/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  },
+  {
+    "organization": "UNU-WIDER Events",
+    "source_page": "https://www.wider.unu.edu/events",
+    "status": "ok",
+    "record_count": 6,
+    "error": ""
+  },
+  {
+    "organization": "UNU-CPR Events",
+    "source_page": "https://unu.edu/cpr/events",
+    "status": "ok",
+    "record_count": 2,
+    "error": ""
+  }
+]

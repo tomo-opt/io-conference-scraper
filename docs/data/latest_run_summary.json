@@ -3,10 +3,10 @@
   "successful_sources": 46,
   "partial_sources": 15,
   "failed_sources": 36,
-  "total_raw_records": 440,
-  "total_deduped_records": 435,
-  "run_started_at_utc": "2026-04-10T05:07:23Z",
-  "run_finished_at_utc": "2026-04-10T05:09:05Z",
+  "total_raw_records": 444,
+  "total_deduped_records": 439,
+  "run_started_at_utc": "2026-04-11T04:28:29Z",
+  "run_finished_at_utc": "2026-04-11T04:30:12Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 37,
+      "record_count": 41,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 24,
+      "record_count": 23,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 4,
+      "record_count": 5,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0c700267d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0cd3891c10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
