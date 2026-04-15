@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 45,
   "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 442,
-  "total_deduped_records": 437,
-  "run_started_at_utc": "2026-04-14T04:52:00Z",
-  "run_finished_at_utc": "2026-04-14T04:54:16Z",
+  "failed_sources": 37,
+  "total_raw_records": 443,
+  "total_deduped_records": 438,
+  "run_started_at_utc": "2026-04-15T04:52:33Z",
+  "run_finished_at_utc": "2026-04-15T04:55:27Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -95,8 +95,8 @@
     {
       "organization": "UN Office for Partnerships Events",
       "source_page": "https://www.un.org/partnerships/events",
-      "status": "ok",
-      "record_count": 2,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 14,
+      "record_count": 15,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 23,
+      "record_count": 24,
       "error": ""
     },
     {
@@ -307,7 +307,7 @@
       "source_page": "https://wmo.int/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://wmo.int/events"
+      "error": "HTTPSConnectionPool(host='wmo.int', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "World Bank Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+      "error": "500 Server Error: Service unavailable (with message) for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5d736fc710>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fbd05e860d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 8,
       "error": ""
     },
     {
@@ -599,9 +599,9 @@
     {
       "organization": "WMO News, Events and Meetings",
       "source_page": "https://wmo.int/news/events-and-meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "HTTPSConnectionPool(host='wmo.int', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "OHCHR Events",
