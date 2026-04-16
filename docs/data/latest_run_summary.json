@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
+  "successful_sources": 46,
   "partial_sources": 15,
-  "failed_sources": 37,
-  "total_raw_records": 443,
-  "total_deduped_records": 438,
-  "run_started_at_utc": "2026-04-15T04:52:33Z",
-  "run_finished_at_utc": "2026-04-15T04:55:27Z",
+  "failed_sources": 36,
+  "total_raw_records": 445,
+  "total_deduped_records": 440,
+  "run_started_at_utc": "2026-04-16T05:11:32Z",
+  "run_finished_at_utc": "2026-04-16T05:13:22Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -89,14 +89,14 @@
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
       "status": "ok",
-      "record_count": 61,
+      "record_count": 62,
       "error": ""
     },
     {
       "organization": "UN Office for Partnerships Events",
       "source_page": "https://www.un.org/partnerships/events",
-      "status": "partial",
-      "record_count": 0,
+      "status": "ok",
+      "record_count": 2,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 39,
+      "record_count": 37,
       "error": ""
     },
     {
@@ -285,7 +285,7 @@
       "organization": "Universal Postal Union Events",
       "source_page": "https://www.upu.int/en/Events",
       "status": "ok",
-      "record_count": 6,
+      "record_count": 7,
       "error": ""
     },
     {
@@ -307,7 +307,7 @@
       "source_page": "https://wmo.int/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='wmo.int', port=443): Read timed out. (read timeout=20)"
+      "error": "404 Client Error: Not Found for url: https://wmo.int/events"
     },
     {
       "organization": "World Bank Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "500 Server Error: Service unavailable (with message) for url: https://au.int/en/events"
+      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fbd05e860d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fde7dc8f1d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -599,9 +599,9 @@
     {
       "organization": "WMO News, Events and Meetings",
       "source_page": "https://wmo.int/news/events-and-meetings",
-      "status": "error",
+      "status": "partial",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='wmo.int', port=443): Read timed out. (read timeout=20)"
+      "error": ""
     },
     {
       "organization": "OHCHR Events",
