@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 47,
   "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 448,
-  "total_deduped_records": 443,
-  "run_started_at_utc": "2026-04-18T04:40:03Z",
-  "run_finished_at_utc": "2026-04-18T04:41:54Z",
+  "failed_sources": 35,
+  "total_raw_records": 426,
+  "total_deduped_records": 425,
+  "run_started_at_utc": "2026-04-19T05:10:47Z",
+  "run_finished_at_utc": "2026-04-19T05:12:22Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -228,9 +228,9 @@
     {
       "organization": "IFAD Events",
       "source_page": "https://www.ifad.org/en/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.ifad.org/en/events"
+      "status": "ok",
+      "record_count": 7,
+      "error": ""
     },
     {
       "organization": "ILO Meetings and Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+      "error": "500 Server Error: Service unavailable (with message) for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fda22fad0d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7efdb9905790>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -613,9 +613,9 @@
     {
       "organization": "Human Rights Council Sessions",
       "source_page": "https://www.ohchr.org/en/hr-bodies/hrc/sessions",
-      "status": "ok",
-      "record_count": 37,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.ohchr.org/en/hr-bodies/hrc/sessions"
     },
     {
       "organization": "UN Trade and Development – Events",
@@ -655,9 +655,9 @@
     {
       "organization": "IFAD Executive Board and Governing Council",
       "source_page": "https://www.ifad.org/en/governing-bodies",
-      "status": "error",
-      "record_count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.ifad.org/en/governing-bodies"
+      "status": "ok",
+      "record_count": 9,
+      "error": ""
     },
     {
       "organization": "UNU Macau Events",
