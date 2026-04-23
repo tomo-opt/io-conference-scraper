@@ -3,10 +3,10 @@
   "successful_sources": 47,
   "partial_sources": 15,
   "failed_sources": 35,
-  "total_raw_records": 427,
-  "total_deduped_records": 426,
-  "run_started_at_utc": "2026-04-22T04:53:14Z",
-  "run_finished_at_utc": "2026-04-22T04:55:03Z",
+  "total_raw_records": 430,
+  "total_deduped_records": 429,
+  "run_started_at_utc": "2026-04-23T05:10:48Z",
+  "run_finished_at_utc": "2026-04-23T05:12:43Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 15,
+      "record_count": 14,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 22,
+      "record_count": 25,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 8,
+      "record_count": 9,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f1daeb6fdd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f3512696a10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
