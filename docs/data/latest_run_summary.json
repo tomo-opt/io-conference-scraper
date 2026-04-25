@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 47,
+  "successful_sources": 45,
   "partial_sources": 15,
-  "failed_sources": 35,
-  "total_raw_records": 429,
-  "total_deduped_records": 428,
-  "run_started_at_utc": "2026-04-24T05:15:41Z",
-  "run_finished_at_utc": "2026-04-24T05:17:57Z",
+  "failed_sources": 37,
+  "total_raw_records": 411,
+  "total_deduped_records": 410,
+  "run_started_at_utc": "2026-04-25T04:42:55Z",
+  "run_finished_at_utc": "2026-04-25T04:44:39Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 25,
+      "record_count": 22,
       "error": ""
     },
     {
@@ -327,7 +327,7 @@
       "organization": "World Bank Spring Meetings",
       "source_page": "https://www.worldbank.org/en/meetings/splash/spring",
       "status": "ok",
-      "record_count": 3,
+      "record_count": 4,
       "error": ""
     },
     {
@@ -452,9 +452,9 @@
     {
       "organization": "IAEA Events",
       "source_page": "https://www.iaea.org/events",
-      "status": "ok",
-      "record_count": 11,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.iaea.org/events"
     },
     {
       "organization": "IOM Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='au.int', port=443): Read timed out. (read timeout=20)"
+      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f721015bed0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fb360627710>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -594,7 +594,7 @@
       "source_page": "https://unfccc.int/process-and-meetings/conferences",
       "status": "error",
       "record_count": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
     },
     {
       "organization": "WMO News, Events and Meetings",
@@ -606,9 +606,9 @@
     {
       "organization": "OHCHR Events",
       "source_page": "https://www.ohchr.org/en/events",
-      "status": "ok",
-      "record_count": 5,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "503 Server Error: Service Unavailable for url: https://www.ohchr.org/en/events"
     },
     {
       "organization": "Human Rights Council Sessions",
