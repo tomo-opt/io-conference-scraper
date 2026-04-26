@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
+  "successful_sources": 46,
   "partial_sources": 15,
-  "failed_sources": 37,
-  "total_raw_records": 411,
-  "total_deduped_records": 410,
-  "run_started_at_utc": "2026-04-25T04:42:55Z",
-  "run_finished_at_utc": "2026-04-25T04:44:39Z",
+  "failed_sources": 36,
+  "total_raw_records": 416,
+  "total_deduped_records": 415,
+  "run_started_at_utc": "2026-04-26T05:20:04Z",
+  "run_finished_at_utc": "2026-04-26T05:22:07Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fb360627710>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f51128b05d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -606,9 +606,9 @@
     {
       "organization": "OHCHR Events",
       "source_page": "https://www.ohchr.org/en/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "503 Server Error: Service Unavailable for url: https://www.ohchr.org/en/events"
+      "status": "ok",
+      "record_count": 5,
+      "error": ""
     },
     {
       "organization": "Human Rights Council Sessions",
