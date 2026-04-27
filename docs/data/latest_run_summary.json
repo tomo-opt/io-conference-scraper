@@ -3,10 +3,10 @@
   "successful_sources": 46,
   "partial_sources": 15,
   "failed_sources": 36,
-  "total_raw_records": 416,
-  "total_deduped_records": 415,
-  "run_started_at_utc": "2026-04-26T05:20:04Z",
-  "run_finished_at_utc": "2026-04-26T05:22:07Z",
+  "total_raw_records": 418,
+  "total_deduped_records": 417,
+  "run_started_at_utc": "2026-04-27T05:32:31Z",
+  "run_finished_at_utc": "2026-04-27T05:34:34Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 22,
+      "record_count": 23,
       "error": ""
     },
     {
@@ -391,7 +391,7 @@
       "source_page": "https://unitar.org/about/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://unitar.org/about/events"
+      "error": "503 Server Error: Service Unavailable for url: https://unitar.org/about/events"
     },
     {
       "organization": "UNU Events",
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 8,
+      "record_count": 9,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f51128b05d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f3cce336610>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
