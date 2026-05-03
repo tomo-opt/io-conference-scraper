@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 47,
   "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 396,
-  "total_deduped_records": 395,
-  "run_started_at_utc": "2026-05-02T05:18:29Z",
-  "run_finished_at_utc": "2026-05-02T05:20:48Z",
+  "failed_sources": 35,
+  "total_raw_records": 404,
+  "total_deduped_records": 403,
+  "run_started_at_utc": "2026-05-03T05:37:43Z",
+  "run_finished_at_utc": "2026-05-03T05:39:25Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -256,9 +256,9 @@
     {
       "organization": "ITU Events Calendar",
       "source_page": "https://www.itu.int/en/events/pages/calendar-events.aspx",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.itu.int', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 8,
+      "error": ""
     },
     {
       "organization": "UNESCO Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f52ae9e9f10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f4166d6ddd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
