@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
   "successful_sources": 47,
-  "partial_sources": 15,
-  "failed_sources": 35,
-  "total_raw_records": 401,
-  "total_deduped_records": 400,
-  "run_started_at_utc": "2026-05-08T05:10:55Z",
-  "run_finished_at_utc": "2026-05-08T05:12:43Z",
+  "partial_sources": 16,
+  "failed_sources": 34,
+  "total_raw_records": 432,
+  "total_deduped_records": 426,
+  "run_started_at_utc": "2026-05-09T05:28:40Z",
+  "run_finished_at_utc": "2026-05-09T05:30:24Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 16,
+      "record_count": 15,
       "error": ""
     },
     {
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "500 Server Error: Service unavailable (with message) for url: https://au.int/en/events"
+      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fcea6c19f90>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fdc909c0910>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -564,8 +564,8 @@
     {
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
-      "status": "ok",
-      "record_count": 7,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
@@ -613,9 +613,9 @@
     {
       "organization": "Human Rights Council Sessions",
       "source_page": "https://www.ohchr.org/en/hr-bodies/hrc/sessions",
-      "status": "error",
-      "record_count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.ohchr.org/en/hr-bodies/hrc/sessions"
+      "status": "ok",
+      "record_count": 37,
+      "error": ""
     },
     {
       "organization": "UN Trade and Development – Events",
