@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
-  "partial_sources": 17,
+  "successful_sources": 48,
+  "partial_sources": 15,
   "failed_sources": 34,
-  "total_raw_records": 422,
-  "total_deduped_records": 416,
-  "run_started_at_utc": "2026-05-22T06:18:13Z",
-  "run_finished_at_utc": "2026-05-22T06:20:10Z",
+  "total_raw_records": 440,
+  "total_deduped_records": 434,
+  "run_started_at_utc": "2026-05-23T05:46:34Z",
+  "run_finished_at_utc": "2026-05-23T05:48:31Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -263,8 +263,8 @@
     {
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
-      "status": "partial",
-      "record_count": 0,
+      "status": "ok",
+      "record_count": 15,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 6,
+      "record_count": 4,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5dbded9c10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f471acc6990>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -564,8 +564,8 @@
     {
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
-      "status": "partial",
-      "record_count": 0,
+      "status": "ok",
+      "record_count": 7,
       "error": ""
     },
     {
