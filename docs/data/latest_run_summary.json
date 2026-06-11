@@ -1,33 +1,33 @@
 {
   "total_sources": 97,
-  "successful_sources": 44,
-  "partial_sources": 18,
-  "failed_sources": 35,
-  "total_raw_records": 443,
-  "total_deduped_records": 437,
-  "run_started_at_utc": "2026-06-10T06:40:28Z",
-  "run_finished_at_utc": "2026-06-10T06:42:12Z",
+  "successful_sources": 43,
+  "partial_sources": 11,
+  "failed_sources": 43,
+  "total_raw_records": 425,
+  "total_deduped_records": 419,
+  "run_started_at_utc": "2026-06-11T07:01:52Z",
+  "run_finished_at_utc": "2026-06-11T07:04:20Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
       "source_page": "https://www.un.org/en/events-and-news",
-      "status": "ok",
-      "record_count": 13,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/en/events-and-news"
     },
     {
       "organization": "United Nations – Calendar of Conferences and Meetings",
       "source_page": "https://www.un.org/calendar/en",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/calendar/en"
     },
     {
       "organization": "United Nations – Conferences Portal",
       "source_page": "https://www.un.org/en/conferences",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/en/conferences"
     },
     {
       "organization": "UN Meetings Coverage (Press)",
@@ -46,37 +46,37 @@
     {
       "organization": "UN ECOSOC Events",
       "source_page": "https://www.un.org/ecosoc/en/events",
-      "status": "ok",
-      "record_count": 10,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/ecosoc/en/events"
     },
     {
       "organization": "UN High-Level Political Forum",
       "source_page": "https://hlpf.un.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://hlpf.un.org/events"
+      "error": "403 Client Error: Forbidden for url: https://hlpf.un.org/events"
     },
     {
       "organization": "UN General Assembly Meetings",
       "source_page": "https://www.un.org/en/ga/meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/en/ga/meetings"
     },
     {
       "organization": "UN Security Council Meetings",
       "source_page": "https://www.un.org/securitycouncil/content/meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/securitycouncil/content/meetings"
     },
     {
       "organization": "UN DESA Events",
       "source_page": "https://www.un.org/development/desa/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://www.un.org/development/desa/events"
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/development/desa/events"
     },
     {
       "organization": "UNDRR Events",
@@ -95,15 +95,15 @@
     {
       "organization": "UN Office for Partnerships Events",
       "source_page": "https://www.un.org/partnerships/events",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.un.org/partnerships/events"
     },
     {
       "organization": "OCHA Events",
       "source_page": "https://www.unocha.org/events",
-      "status": "ok",
-      "record_count": 6,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
@@ -153,7 +153,7 @@
       "source_page": "https://www.wfp.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://www.wfp.org/events"
+      "error": "403 Client Error: Forbidden for url: https://www.wfp.org/events"
     },
     {
       "organization": "UN Volunteers Events",
@@ -256,15 +256,15 @@
     {
       "organization": "ITU Events Calendar",
       "source_page": "https://www.itu.int/en/events/pages/calendar-events.aspx",
-      "status": "partial",
-      "record_count": 0,
+      "status": "ok",
+      "record_count": 9,
       "error": ""
     },
     {
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 21,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -298,9 +298,9 @@
     {
       "organization": "WIPO Meetings and Events",
       "source_page": "https://www.wipo.int/meetings/en",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://www.wipo.int/meetings/en"
     },
     {
       "organization": "WMO Events",
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 6,
+      "record_count": 7,
       "error": ""
     },
     {
@@ -517,7 +517,7 @@
       "source_page": "https://commission.europa.eu/news/events_en",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://commission.europa.eu/news/events_en"
+      "error": "403 Client Error: Forbidden for url: https://commission.europa.eu/news/events_en"
     },
     {
       "organization": "NATO Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+      "error": "HTTPSConnectionPool(host='au.int', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f960de63990>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7ff0291cdc50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -634,8 +634,8 @@
     {
       "organization": "ITU Events Search",
       "source_page": "https://www.itu.int/hub/events/",
-      "status": "partial",
-      "record_count": 0,
+      "status": "ok",
+      "record_count": 1,
       "error": ""
     },
     {
