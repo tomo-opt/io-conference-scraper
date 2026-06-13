@@ -3,10 +3,10 @@
   "successful_sources": 48,
   "partial_sources": 15,
   "failed_sources": 34,
-  "total_raw_records": 451,
-  "total_deduped_records": 445,
-  "run_started_at_utc": "2026-06-12T06:53:46Z",
-  "run_finished_at_utc": "2026-06-12T06:55:35Z",
+  "total_raw_records": 445,
+  "total_deduped_records": 439,
+  "run_started_at_utc": "2026-06-13T06:30:46Z",
+  "run_finished_at_utc": "2026-06-13T06:32:31Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -55,7 +55,7 @@
       "source_page": "https://hlpf.un.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://hlpf.un.org/events"
+      "error": "405 Client Error: Not Allowed for url: https://hlpf.un.org/events"
     },
     {
       "organization": "UN General Assembly Meetings",
@@ -89,7 +89,7 @@
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
       "status": "ok",
-      "record_count": 59,
+      "record_count": 58,
       "error": ""
     },
     {
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 16,
+      "record_count": 13,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 20,
+      "record_count": 18,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fec265d1850>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f12d7d9fa90>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
