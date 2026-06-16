@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 48,
   "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 433,
-  "total_deduped_records": 427,
-  "run_started_at_utc": "2026-06-15T07:34:27Z",
-  "run_finished_at_utc": "2026-06-15T07:37:10Z",
+  "failed_sources": 34,
+  "total_raw_records": 443,
+  "total_deduped_records": 437,
+  "run_started_at_utc": "2026-06-16T07:39:07Z",
+  "run_finished_at_utc": "2026-06-16T07:40:56Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -137,9 +137,9 @@
     {
       "organization": "UN-Habitat Events",
       "source_page": "https://unhabitat.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='unhabitat.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 10,
+      "error": ""
     },
     {
       "organization": "UNEP Events",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 13,
+      "record_count": 12,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 20,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
+      "status": "ok",
+      "record_count": 3,
+      "error": ""
     },
     {
       "organization": "UNRWA Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='au.int', port=443): Read timed out. (read timeout=20)"
+      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fab98ae8450>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fda7e0c6510>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 10,
+      "record_count": 9,
       "error": ""
     },
     {
