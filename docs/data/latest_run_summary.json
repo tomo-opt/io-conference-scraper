@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 47,
-  "partial_sources": 15,
+  "successful_sources": 46,
+  "partial_sources": 16,
   "failed_sources": 35,
-  "total_raw_records": 437,
-  "total_deduped_records": 431,
-  "run_started_at_utc": "2026-06-17T07:24:59Z",
-  "run_finished_at_utc": "2026-06-17T07:26:58Z",
+  "total_raw_records": 428,
+  "total_deduped_records": 422,
+  "run_started_at_utc": "2026-06-18T07:03:16Z",
+  "run_finished_at_utc": "2026-06-18T07:04:50Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -89,7 +89,7 @@
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
       "status": "ok",
-      "record_count": 58,
+      "record_count": 59,
       "error": ""
     },
     {
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 11,
+      "record_count": 12,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 44,
+      "record_count": 41,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 20,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -363,7 +363,7 @@
       "source_page": "https://www.unops.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
+      "error": "503 Server Error: Service Unavailable for url: https://www.unops.org/events"
     },
     {
       "organization": "UNRWA Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f624261ddd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f3c397c6950>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -564,8 +564,8 @@
     {
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
-      "status": "ok",
-      "record_count": 9,
+      "status": "partial",
+      "record_count": 0,
       "error": ""
     },
     {
