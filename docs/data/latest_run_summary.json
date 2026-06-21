@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 48,
+  "successful_sources": 47,
   "partial_sources": 15,
-  "failed_sources": 34,
-  "total_raw_records": 431,
-  "total_deduped_records": 425,
-  "run_started_at_utc": "2026-06-20T06:39:16Z",
-  "run_finished_at_utc": "2026-06-20T06:40:55Z",
+  "failed_sources": 35,
+  "total_raw_records": 373,
+  "total_deduped_records": 367,
+  "run_started_at_utc": "2026-06-21T07:03:27Z",
+  "run_finished_at_utc": "2026-06-21T07:05:18Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -88,9 +88,9 @@
     {
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
-      "status": "ok",
-      "record_count": 58,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='www.unoosa.org', port=443): Max retries exceeded with url: /oosa/en/events/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "organization": "UN Office for Partnerships Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f7de4fe4590>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f3426e3e290>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
