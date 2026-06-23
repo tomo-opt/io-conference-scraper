@@ -3,10 +3,10 @@
   "successful_sources": 47,
   "partial_sources": 16,
   "failed_sources": 34,
-  "total_raw_records": 428,
-  "total_deduped_records": 422,
-  "run_started_at_utc": "2026-06-22T07:37:07Z",
-  "run_finished_at_utc": "2026-06-22T07:38:35Z",
+  "total_raw_records": 431,
+  "total_deduped_records": 425,
+  "run_started_at_utc": "2026-06-23T06:17:48Z",
+  "run_finished_at_utc": "2026-06-23T06:19:21Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -89,7 +89,7 @@
       "organization": "UNOOSA Events",
       "source_page": "https://www.unoosa.org/oosa/en/events/index.html",
       "status": "ok",
-      "record_count": 58,
+      "record_count": 59,
       "error": ""
     },
     {
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 11,
+      "record_count": 13,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 37,
+      "record_count": 38,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f4f1fb2f310>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fc7f572a010>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 6,
       "error": ""
     },
     {
