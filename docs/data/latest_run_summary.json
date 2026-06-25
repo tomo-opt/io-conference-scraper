@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
-  "partial_sources": 15,
-  "failed_sources": 36,
-  "total_raw_records": 420,
-  "total_deduped_records": 414,
-  "run_started_at_utc": "2026-06-24T06:14:36Z",
-  "run_finished_at_utc": "2026-06-24T06:17:00Z",
+  "successful_sources": 48,
+  "partial_sources": 14,
+  "failed_sources": 35,
+  "total_raw_records": 431,
+  "total_deduped_records": 425,
+  "run_started_at_utc": "2026-06-25T06:17:36Z",
+  "run_finished_at_utc": "2026-06-25T06:20:06Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -67,9 +67,9 @@
     {
       "organization": "UN Security Council Meetings",
       "source_page": "https://www.un.org/securitycouncil/content/meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "503 Server Error: Service Unavailable for url: https://main.un.org/securitycouncil/content/meetings"
     },
     {
       "organization": "UN DESA Events",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 13,
+      "record_count": 11,
       "error": ""
     },
     {
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 36,
+      "record_count": 35,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 18,
+      "record_count": 20,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unops.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 3,
+      "error": ""
     },
     {
       "organization": "UNRWA Events",
@@ -531,7 +531,7 @@
       "source_page": "https://au.int/en/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://au.int/en/events"
+      "error": "HTTPSConnectionPool(host='au.int', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "ASEAN Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f40d3427dd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f50cad7e910>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -557,9 +557,9 @@
     {
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='thecommonwealth.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 9,
+      "error": ""
     },
     {
       "organization": "UNESCO General Conference",
