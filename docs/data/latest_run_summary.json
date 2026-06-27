@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
-  "partial_sources": 16,
+  "successful_sources": 47,
+  "partial_sources": 15,
   "failed_sources": 35,
-  "total_raw_records": 425,
-  "total_deduped_records": 419,
-  "run_started_at_utc": "2026-06-26T06:19:17Z",
-  "run_finished_at_utc": "2026-06-26T06:22:01Z",
+  "total_raw_records": 422,
+  "total_deduped_records": 416,
+  "run_started_at_utc": "2026-06-27T06:00:12Z",
+  "run_finished_at_utc": "2026-06-27T06:02:48Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 35,
+      "record_count": 34,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 21,
+      "record_count": 18,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
+      "status": "ok",
+      "record_count": 3,
+      "error": ""
     },
     {
       "organization": "UNRWA Events",
@@ -426,7 +426,7 @@
       "source_page": "https://unicri.it/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='unicri.it', port=443): Max retries exceeded with url: /events (Caused by ConnectTimeoutError(<HTTPSConnection(host='unicri.it', port=443) at 0x7fe7e05c9310>, 'Connection to unicri.it timed out. (connect timeout=20)'))"
+      "error": "HTTPSConnectionPool(host='unicri.it', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "organization": "WTO Events Calendar",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe7df8ce690>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0d8813e710>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 8,
+      "record_count": 6,
       "error": ""
     },
     {
@@ -585,16 +585,16 @@
     {
       "organization": "UNFCCC Events List",
       "source_page": "https://unfccc.int/calendar/events-list",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "503 Server Error: Service Unavailable for url: https://unfccc.int/calendar/events-list"
     },
     {
       "organization": "UNFCCC Conferences and Meetings",
       "source_page": "https://unfccc.int/process-and-meetings/conferences",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "organization": "WMO News, Events and Meetings",
