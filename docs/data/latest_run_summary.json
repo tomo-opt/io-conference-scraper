@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
-  "partial_sources": 16,
+  "successful_sources": 46,
+  "partial_sources": 15,
   "failed_sources": 36,
-  "total_raw_records": 414,
-  "total_deduped_records": 408,
-  "run_started_at_utc": "2026-07-12T05:36:25Z",
-  "run_finished_at_utc": "2026-07-12T05:38:34Z",
+  "total_raw_records": 419,
+  "total_deduped_records": 413,
+  "run_started_at_utc": "2026-07-13T05:47:27Z",
+  "run_finished_at_utc": "2026-07-13T05:48:58Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -347,9 +347,9 @@
     {
       "organization": "UNCTAD Meetings",
       "source_page": "https://unctad.org/meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://unctad.org/meetings"
     },
     {
       "organization": "UNHCR Events",
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.unops.org/events"
+      "status": "ok",
+      "record_count": 5,
+      "error": ""
     },
     {
       "organization": "UNRWA Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fa071d02010>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fed4e7c6150>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -622,7 +622,7 @@
       "source_page": "https://unctad.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://unctad.org/events"
+      "error": "403 Client Error: Forbidden for url: https://unctad.org/events"
     },
     {
       "organization": "FAO Regional Conferences",
