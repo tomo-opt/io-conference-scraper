@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 45,
+  "successful_sources": 46,
   "partial_sources": 14,
-  "failed_sources": 38,
-  "total_raw_records": 414,
-  "total_deduped_records": 408,
-  "run_started_at_utc": "2026-07-21T05:28:45Z",
-  "run_finished_at_utc": "2026-07-21T05:31:29Z",
+  "failed_sources": 37,
+  "total_raw_records": 415,
+  "total_deduped_records": 409,
+  "run_started_at_utc": "2026-07-22T05:27:50Z",
+  "run_finished_at_utc": "2026-07-22T05:29:38Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -180,7 +180,7 @@
       "organization": "UNESCAP Events",
       "source_page": "https://www.unescap.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 8,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 27,
+      "record_count": 25,
       "error": ""
     },
     {
@@ -361,9 +361,9 @@
     {
       "organization": "UNOPS Events",
       "source_page": "https://www.unops.org/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unops.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 3,
+      "error": ""
     },
     {
       "organization": "UNRWA Events",
@@ -538,14 +538,14 @@
       "source_page": "https://asean.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='asean.org', port=443): Max retries exceeded with url: /events (Caused by ConnectTimeoutError(<HTTPSConnection(host='asean.org', port=443) at 0x7f4dfbbc9c50>, 'Connection to asean.org timed out. (connect timeout=20)'))"
+      "error": "HTTPSConnectionPool(host='asean.org', port=443): Max retries exceeded with url: /events (Caused by ConnectTimeoutError(<HTTPSConnection(host='asean.org', port=443) at 0x7faf6a1a4f50>, 'Connection to asean.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "Organization of American States Events",
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f4dfb699150>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7faf698efbd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 6,
       "error": ""
     },
     {
