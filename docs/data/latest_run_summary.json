@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 44,
+  "successful_sources": 46,
   "partial_sources": 14,
-  "failed_sources": 39,
-  "total_raw_records": 372,
-  "total_deduped_records": 371,
-  "run_started_at_utc": "2026-07-26T05:40:09Z",
-  "run_finished_at_utc": "2026-07-26T05:42:43Z",
+  "failed_sources": 37,
+  "total_raw_records": 382,
+  "total_deduped_records": 381,
+  "run_started_at_utc": "2026-07-27T05:58:49Z",
+  "run_finished_at_utc": "2026-07-27T06:00:30Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -214,9 +214,9 @@
     {
       "organization": "FAO Members Gateway Calendar",
       "source_page": "https://www.fao.org/members-gateway/calendar/en",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 5,
+      "error": ""
     },
     {
       "organization": "ICAO Meetings and Events",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 24,
+      "record_count": 26,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f92be2062d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5077456e10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -594,7 +594,7 @@
       "source_page": "https://unfccc.int/process-and-meetings/conferences",
       "status": "error",
       "record_count": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "404 Client Error: Not Found for url: https://unfccc.int/process-and-meetings/conferences"
     },
     {
       "organization": "WMO News, Events and Meetings",
@@ -627,9 +627,9 @@
     {
       "organization": "FAO Regional Conferences",
       "source_page": "https://www.fao.org/about/meetings/regional-conferences/en",
-      "status": "error",
-      "record_count": 0,
-      "error": "504 Server Error: Gateway Timeout for url: https://www.fao.org/about/meetings/regional-conferences/en"
+      "status": "ok",
+      "record_count": 3,
+      "error": ""
     },
     {
       "organization": "ITU Events Search",
