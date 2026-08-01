@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 46,
+  "successful_sources": 45,
   "partial_sources": 14,
-  "failed_sources": 37,
-  "total_raw_records": 386,
-  "total_deduped_records": 385,
-  "run_started_at_utc": "2026-07-31T05:44:19Z",
-  "run_finished_at_utc": "2026-07-31T05:46:22Z",
+  "failed_sources": 38,
+  "total_raw_records": 373,
+  "total_deduped_records": 372,
+  "run_started_at_utc": "2026-08-01T05:35:05Z",
+  "run_finished_at_utc": "2026-08-01T05:37:28Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -95,9 +95,9 @@
     {
       "organization": "UN Office for Partnerships Events",
       "source_page": "https://www.un.org/partnerships/events",
-      "status": "ok",
-      "record_count": 2,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "HTTPSConnectionPool(host='unpartnerships.un.org', port=443): Max retries exceeded with url: //events (Caused by ConnectTimeoutError(<HTTPSConnection(host='unpartnerships.un.org', port=443) at 0x7fb8abdb9450>, 'Connection to unpartnerships.un.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "OCHA Events",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 40,
+      "record_count": 41,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 24,
+      "record_count": 13,
       "error": ""
     },
     {
@@ -489,7 +489,7 @@
       "source_page": "https://www.ctbto.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://www.ctbto.org/events"
+      "error": "HTTPSConnectionPool(host='www.ctbto.org', port=443): Read timed out. (read timeout=20)"
     },
     {
       "organization": "ICC Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f3d8a9e9490>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fb8aac4ed10>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 6,
       "error": ""
     },
     {
