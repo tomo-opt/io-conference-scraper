@@ -3,10 +3,10 @@
   "successful_sources": 44,
   "partial_sources": 14,
   "failed_sources": 39,
-  "total_raw_records": 380,
-  "total_deduped_records": 379,
-  "run_started_at_utc": "2026-09-03T07:07:47Z",
-  "run_finished_at_utc": "2026-09-03T07:09:27Z",
+  "total_raw_records": 382,
+  "total_deduped_records": 381,
+  "run_started_at_utc": "2026-09-04T07:11:35Z",
+  "run_finished_at_utc": "2026-09-04T07:13:22Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 17,
+      "record_count": 20,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fc3c02c82d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0f76b11f50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 9,
+      "record_count": 8,
       "error": ""
     },
     {
