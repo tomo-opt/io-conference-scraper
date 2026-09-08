@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 42,
+  "successful_sources": 43,
   "partial_sources": 15,
-  "failed_sources": 40,
-  "total_raw_records": 374,
-  "total_deduped_records": 374,
-  "run_started_at_utc": "2026-09-07T07:16:56Z",
-  "run_finished_at_utc": "2026-09-07T07:19:02Z",
+  "failed_sources": 39,
+  "total_raw_records": 371,
+  "total_deduped_records": 371,
+  "run_started_at_utc": "2026-09-08T07:12:02Z",
+  "run_finished_at_utc": "2026-09-08T07:14:09Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 42,
+      "record_count": 39,
       "error": ""
     },
     {
@@ -207,9 +207,9 @@
     {
       "organization": "FAO Events",
       "source_page": "https://www.fao.org/events/en",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 1,
+      "error": ""
     },
     {
       "organization": "FAO Members Gateway Calendar",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 21,
+      "record_count": 18,
       "error": ""
     },
     {
@@ -404,7 +404,7 @@
       "organization": "UNIDIR Events",
       "source_page": "https://unidir.org/events",
       "status": "ok",
-      "record_count": 14,
+      "record_count": 16,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f0dc7466690>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f47f9eef710>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
