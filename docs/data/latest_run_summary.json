@@ -3,10 +3,10 @@
   "successful_sources": 45,
   "partial_sources": 14,
   "failed_sources": 38,
-  "total_raw_records": 383,
-  "total_deduped_records": 382,
-  "run_started_at_utc": "2026-09-17T07:34:42Z",
-  "run_finished_at_utc": "2026-09-17T07:36:31Z",
+  "total_raw_records": 385,
+  "total_deduped_records": 384,
+  "run_started_at_utc": "2026-09-18T07:21:43Z",
+  "run_finished_at_utc": "2026-09-18T07:23:24Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe4a9fc1f50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7ff2814cfe50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -565,7 +565,7 @@
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
       "status": "ok",
-      "record_count": 9,
+      "record_count": 11,
       "error": ""
     },
     {
