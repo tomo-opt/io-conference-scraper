@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
   "successful_sources": 45,
-  "partial_sources": 13,
-  "failed_sources": 39,
+  "partial_sources": 14,
+  "failed_sources": 38,
   "total_raw_records": 426,
   "total_deduped_records": 421,
-  "run_started_at_utc": "2026-10-07T08:34:42Z",
-  "run_finished_at_utc": "2026-10-07T08:36:45Z",
+  "run_started_at_utc": "2026-10-08T08:52:22Z",
+  "run_finished_at_utc": "2026-10-08T08:54:07Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -194,7 +194,7 @@
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
       "status": "ok",
-      "record_count": 48,
+      "record_count": 49,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 13,
+      "record_count": 12,
       "error": ""
     },
     {
@@ -536,16 +536,16 @@
     {
       "organization": "ASEAN Events",
       "source_page": "https://asean.org/events",
-      "status": "error",
+      "status": "partial",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='asean.org', port=443): Max retries exceeded with url: /events (Caused by ConnectTimeoutError(<HTTPSConnection(host='asean.org', port=443) at 0x7f4377ce3ed0>, 'Connection to asean.org timed out. (connect timeout=20)'))"
+      "error": ""
     },
     {
       "organization": "Organization of American States Events",
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f43779b60d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fd71b010fd0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
