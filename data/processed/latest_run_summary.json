@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 43,
+  "successful_sources": 42,
   "partial_sources": 14,
-  "failed_sources": 40,
-  "total_raw_records": 382,
-  "total_deduped_records": 382,
-  "run_started_at_utc": "2026-10-15T07:21:16Z",
-  "run_finished_at_utc": "2026-10-15T07:22:51Z",
+  "failed_sources": 41,
+  "total_raw_records": 331,
+  "total_deduped_records": 331,
+  "run_started_at_utc": "2026-10-16T07:04:52Z",
+  "run_finished_at_utc": "2026-10-16T07:06:44Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -193,9 +193,9 @@
     {
       "organization": "ECLAC Events",
       "source_page": "https://www.cepal.org/en/events",
-      "status": "ok",
-      "record_count": 48,
-      "error": ""
+      "status": "error",
+      "record_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.cepal.org/en/events"
     },
     {
       "organization": "ESCWA Events",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 22,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7ffb5c991a50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f9a05d13650>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
