@@ -3,10 +3,10 @@
   "successful_sources": 41,
   "partial_sources": 15,
   "failed_sources": 41,
-  "total_raw_records": 329,
-  "total_deduped_records": 329,
-  "run_started_at_utc": "2026-10-27T07:44:09Z",
-  "run_finished_at_utc": "2026-10-27T07:46:04Z",
+  "total_raw_records": 333,
+  "total_deduped_records": 333,
+  "run_started_at_utc": "2026-10-28T08:22:01Z",
+  "run_finished_at_utc": "2026-10-28T08:23:53Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 19,
+      "record_count": 20,
       "error": ""
     },
     {
@@ -306,7 +306,7 @@
       "organization": "WMO Events",
       "source_page": "https://wmo.int/events",
       "status": "ok",
-      "record_count": 16,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -347,9 +347,9 @@
     {
       "organization": "UNCTAD Meetings",
       "source_page": "https://unctad.org/meetings",
-      "status": "partial",
+      "status": "error",
       "record_count": 0,
-      "error": ""
+      "error": "403 Client Error: Forbidden for url: https://unctad.org/meetings"
     },
     {
       "organization": "UNHCR Events",
@@ -494,9 +494,9 @@
     {
       "organization": "ICC Events",
       "source_page": "https://www.icc-cpi.int/events",
-      "status": "error",
+      "status": "partial",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://www.icc-cpi.int/events"
+      "error": ""
     },
     {
       "organization": "Council of Europe Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f2d9f6c3f90>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f29a1403a90>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -622,7 +622,7 @@
       "source_page": "https://unctad.org/events",
       "status": "error",
       "record_count": 0,
-      "error": "404 Client Error: Not Found for url: https://unctad.org/events"
+      "error": "403 Client Error: Forbidden for url: https://unctad.org/events"
     },
     {
       "organization": "FAO Regional Conferences",
