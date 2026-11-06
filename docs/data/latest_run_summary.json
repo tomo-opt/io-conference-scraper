@@ -3,10 +3,10 @@
   "successful_sources": 40,
   "partial_sources": 15,
   "failed_sources": 42,
-  "total_raw_records": 337,
-  "total_deduped_records": 337,
-  "run_started_at_utc": "2026-11-05T09:23:25Z",
-  "run_finished_at_utc": "2026-11-05T09:25:02Z",
+  "total_raw_records": 333,
+  "total_deduped_records": 333,
+  "run_started_at_utc": "2026-11-06T09:17:58Z",
+  "run_finished_at_utc": "2026-11-06T09:19:52Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -97,7 +97,7 @@
       "source_page": "https://www.un.org/partnerships/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='unpartnerships.un.org', port=443): Max retries exceeded with url: //events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='unpartnerships.un.org', port=443): Max retries exceeded with url: //events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
     },
     {
       "organization": "OCHA Events",
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 20,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -426,7 +426,7 @@
       "source_page": "https://unicri.it/events",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPSConnectionPool(host='unicri.it', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='unicri.it', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
     },
     {
       "organization": "WTO Events Calendar",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fac0de33190>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f539c9e4850>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 7,
+      "record_count": 4,
       "error": ""
     },
     {
