@@ -5,8 +5,8 @@
   "failed_sources": 41,
   "total_raw_records": 333,
   "total_deduped_records": 333,
-  "run_started_at_utc": "2026-11-07T08:41:24Z",
-  "run_finished_at_utc": "2026-11-07T08:43:00Z",
+  "run_started_at_utc": "2026-11-08T08:55:08Z",
+  "run_finished_at_utc": "2026-11-08T08:56:57Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fe5032061d0>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7fccc5c9a350>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
