@@ -3,10 +3,10 @@
   "successful_sources": 41,
   "partial_sources": 14,
   "failed_sources": 42,
-  "total_raw_records": 337,
-  "total_deduped_records": 337,
-  "run_started_at_utc": "2026-11-09T09:40:35Z",
-  "run_finished_at_utc": "2026-11-09T09:42:15Z",
+  "total_raw_records": 335,
+  "total_deduped_records": 335,
+  "run_started_at_utc": "2026-11-10T09:41:40Z",
+  "run_finished_at_utc": "2026-11-10T09:43:19Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -222,7 +222,7 @@
       "organization": "ICAO Meetings and Events",
       "source_page": "https://www.icao.int/events",
       "status": "ok",
-      "record_count": 14,
+      "record_count": 13,
       "error": ""
     },
     {
@@ -264,7 +264,7 @@
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
       "status": "ok",
-      "record_count": 22,
+      "record_count": 19,
       "error": ""
     },
     {
@@ -509,7 +509,7 @@
       "organization": "OSCE Events",
       "source_page": "https://www.osce.org/events",
       "status": "ok",
-      "record_count": 9,
+      "record_count": 10,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f5d13b6cc50>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
+      "error": "HTTPConnectionPool(host='www.apps.oas.org', port=80): Max retries exceeded with url: /oasmeetings/default.aspx?Lang=EN (Caused by ConnectTimeoutError(<HTTPConnection(host='www.apps.oas.org', port=80) at 0x7f6768a85390>, 'Connection to www.apps.oas.org timed out. (connect timeout=20)'))"
     },
     {
       "organization": "APEC Events",
@@ -558,7 +558,7 @@
       "organization": "Commonwealth Events",
       "source_page": "https://thecommonwealth.org/events",
       "status": "ok",
-      "record_count": 4,
+      "record_count": 5,
       "error": ""
     },
     {
