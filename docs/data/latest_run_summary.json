@@ -1,12 +1,12 @@
 {
   "total_sources": 97,
-  "successful_sources": 40,
+  "successful_sources": 42,
   "partial_sources": 15,
-  "failed_sources": 42,
-  "total_raw_records": 313,
-  "total_deduped_records": 313,
-  "run_started_at_utc": "2026-11-17T10:37:28Z",
-  "run_finished_at_utc": "2026-11-17T10:39:04Z",
+  "failed_sources": 40,
+  "total_raw_records": 341,
+  "total_deduped_records": 341,
+  "run_started_at_utc": "2026-11-18T10:02:56Z",
+  "run_finished_at_utc": "2026-11-18T10:04:02Z",
   "per_source_stats": [
     {
       "organization": "United Nations – Events and News",
@@ -138,7 +138,7 @@
       "organization": "UN-Habitat Events",
       "source_page": "https://unhabitat.org/events",
       "status": "ok",
-      "record_count": 10,
+      "record_count": 12,
       "error": ""
     },
     {
@@ -263,9 +263,9 @@
     {
       "organization": "UNESCO Events",
       "source_page": "https://www.unesco.org/en/events",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unesco.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 19,
+      "error": ""
     },
     {
       "organization": "UNIDO Events",
@@ -545,7 +545,7 @@
       "source_page": "https://www.oas.org/en/events/",
       "status": "error",
       "record_count": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.oas.org/en/events/"
+      "error": "503 Server Error: Service Unavailable for url: https://www.oas.org/en/events/"
     },
     {
       "organization": "APEC Events",
@@ -564,9 +564,9 @@
     {
       "organization": "UNESCO General Conference",
       "source_page": "https://www.unesco.org/en/general-conference",
-      "status": "error",
-      "record_count": 0,
-      "error": "HTTPSConnectionPool(host='www.unesco.org', port=443): Read timed out. (read timeout=20)"
+      "status": "ok",
+      "record_count": 9,
+      "error": ""
     },
     {
       "organization": "WHO Governing Bodies",
